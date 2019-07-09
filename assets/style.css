@@ -154,6 +154,7 @@ header{
     background-color: #10213f;
 }
 
+
 .overtext h2{
     padding-top: 10%;
     padding-bottom: 5%;
@@ -163,7 +164,7 @@ header{
 
 article {
     color: white;
-    font-size: 100%;
+    font-size: 90%;
 }
 
 .leesmeerbutton {
@@ -173,15 +174,84 @@ article {
     border-radius: 5px;
     margin-top: 3%;
     padding: 0.8%;
+    margin-bottom: 4%;
 }
 
 .pelkimg{
-    width: 120%;
-    padding-top: 10%;
+    max-width:130%;
+    max-height:130%;
+    text-align: center;
+    padding-left: 40%;
 }
 
 /*-----------------------------------------------------------------------FOOTER-----------------------------------------------------------------------*/
-footer{
-    background-color: green;
-    height: 300px;
+.pelkmap{
+    width: 100vw;
+}
+
+.footerinfo{
+    background-color: #10213f;
+    padding-top: 3%;
+    text-align: center;
+    color: white;
+}
+
+.footer-logo{
+    width: 12%;
+    padding-bottom: 3%;
+}
+
+.footer-links a{
+    padding-left: 0.7%;
+    padding-right: 0.7%;
+}
+
+.whitelink{
+    color: white;
+    font-style: normal;
+}
+
+.boldlink{
+    color: #8c6c45;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.thin{
+    color: #8c6c45;
+    font-style: italic;
+    padding-left: 0.7%;
+    padding-right: 0.7%;
+    font-size: 90%;
+}
+
+.whitelink:hover{
+    color: rgba(255,255,255, 0.7);
+}
+
+.boldlink:hover{
+   color: rgba(140,108,69, 0.7);
+}
+
+.thin:hover{
+    color: inherit;
+}
+
+.footer-contact{
+    padding-bottom: 1%;
+}
+
+.footer-statements{
+    font-size: 80%;
+}
+
+.footer-statements a{
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+
+.footer-copyright{
+    font-size: 70%;
+    padding-bottom: 2%;
+    margin-bottom: 0;
 }
