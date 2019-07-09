@@ -1,0 +1,160 @@
+/*-----------------------------------------------------------------------HEADER-----------------------------------------------------------------------*/
+
+header{
+    background-image: url("images/headerimage.jpg");
+    background-size: cover;
+    padding-bottom: 5%;
+}
+
+.fa-bars{
+    padding-top: 50%;
+    font-size: 200%;
+}
+
+.hamburger-and-logo{
+    margin: 0;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 2%;
+}
+
+.logo{
+    width: 17%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hamburger{
+    font-size: 20px;
+}
+
+.frontheader{
+    color: white;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 2%;
+}
+
+.frontmedium{
+    font-style: italic;
+    font-size: 200%;
+    margin: 0;
+}
+
+.frontlarge{
+    font-weight: bold;
+    font-size: 350%;
+    line-height: 1;
+    margin-bottom: 2%;
+}
+
+.frontsmall{
+    font-size: 120%;
+}
+
+.contactbutton {
+    background-color: Transparent;
+    color: white;
+    border-color: orange;
+    border-radius: 5px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+
+/*-----------------------------------------------------------------------ONTDEK-----------------------------------------------------------------------*/
+#ontdek{
+    background-color: #fffaf2;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 4%;
+    color: #10213f;
+}
+
+.ontdekhead{
+    font-weight: bold;
+    padding-bottom: 8px;
+    font-size: 150%;
+}
+
+.item{
+    height: 130px;
+    width: 200px;
+    padding-bottom: 5%;
+}
+
+.box-shadow{
+    box-shadow: 10px 5px 5px rgba(169, 169, 169, 1);
+}
+
+.ontdekimg{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    padding: 5%;
+    padding-bottom: 0;
+    background-origin: content-box;
+    
+}
+
+.ontdekimg1{
+    background-image: url("images/bottles.png");
+}
+.ontdekimg2{
+    background-image: url("images/whiskey.png");
+}
+.ontdekimg3{
+    background-image: url("images/port.png");
+}
+.ontdekimg4{
+    background-image: url("images/specials.png");
+}
+.ontdekimg5{
+    background-image: url("images/storesmall.png");
+    padding: 0;
+}
+
+.item a{
+    font-size: 130%;
+    height: 20%;
+    color: #8c6c45;
+    display: flex;
+    justify-content: center;
+}
+
+.item a i{
+    font-size: 50%;
+    color: #10213f;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.owl-carousel .owl-item {
+    width: 220px;
+}
+
+.owl-carousel.owl-loaded {
+    padding-left: 5%;
+}
+
+.owl-stage, .owl-stage-outer{
+    height: 250px;
+}
+
+/*-----------------------------------------------------------------------OVER-----------------------------------------------------------------------*/
+#over{
+    background-color: #10213f;
+}
+
+.pelkimg{
+    width: 150%;
+}
+
+/*-----------------------------------------------------------------------FOOTER-----------------------------------------------------------------------*/
+footer{
+    background-color: green;
+}
