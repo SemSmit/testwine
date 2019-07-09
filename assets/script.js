@@ -18,6 +18,13 @@
         })
 
         
+        $(".aanbieding1, .aanbieding2, .aanbieding3").hover(function(){
+            $(this).addClass("box-shadow2");
+          }, function() {
+            $(this).removeClass("box-shadow2");
+        });
+
+                
         $(".item").hover(function(){
             $(this).addClass("box-shadow");
           }, function() {
