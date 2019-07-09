@@ -150,11 +150,34 @@ header{
     background-color: #10213f;
 }
 
+.overtext h2{
+    padding-top: 10%;
+    padding-bottom: 5%;
+    color: #8c6c45;
+    font-style: italic;
+}
+
+article {
+    color: white;
+    font-size: 100%;
+}
+
+.leesmeerbutton {
+    background-color: Transparent;
+    color: white;
+    border-color: #8c6c45;
+    border-radius: 5px;
+    margin-top: 3%;
+    padding: 0.8%;
+}
+
 .pelkimg{
-    width: 150%;
+    width: 120%;
+    padding-top: 10%;
 }
 
 /*-----------------------------------------------------------------------FOOTER-----------------------------------------------------------------------*/
 footer{
     background-color: green;
+    height: 300px;
 }
