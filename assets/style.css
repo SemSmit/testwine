@@ -118,7 +118,7 @@ header{
     padding: 0;
 }
 
-.item a{
+.item p{
     font-size: 130%;
     height: 20%;
     color: #8c6c45;
@@ -126,11 +126,15 @@ header{
     justify-content: center;
 }
 
-.item a i{
+.item p i{
     font-size: 50%;
     color: #10213f;
     padding-left: 10%;
     padding-top: 5%;
+}
+
+.item a:hover{
+    text-decoration: none;
 }
 
 .owl-carousel .owl-item {
