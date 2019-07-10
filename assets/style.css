@@ -72,7 +72,7 @@ header{
     background-color: transparent;
     padding-left: 9%;
     padding-right: 8%;
-    top: -130px;
+    top: -110px;
     font-weight: bold;
     color: white;
 }
@@ -123,10 +123,10 @@ header{
 
 /*-----------------------------------------------------------------------ONTDEK-----------------------------------------------------------------------*/
 #ontdek{
-    background-color: #fffaf2;
+    background-color: white;
     padding-left: 8%;
     padding-right: 8%;
-    margin-top: 1%;
+    padding-top: 4%;
     color: #10213f;
 }
 
@@ -233,7 +233,7 @@ article {
     border-radius: 5px;
     margin-top: 3%;
     padding: 0.8%;
-    margin-bottom: 4%;
+    margin-bottom: 8%;
 }
 
 .pelkimg{
@@ -465,5 +465,76 @@ article {
         margin-bottom: 0;
     }
 
+    
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+    
+    header{
+        padding-bottom: 13%;
+    }
+    
+    .logo{
+        width: 20%;
+    }
+    
+    .frontsmall{
+    font-size: 80%;
+    }
+    
+    #aanbiedingen{
+    padding-left: 9%;
+    padding-right: 8%;
+    top: -90px;
+    }
+    
+    #aanbiedingen h2{
+        font-size: 80%;
+        padding-top: 2%;
+    }
+    
+    .aanbieding{
+        width: 33%;
+        height: 110px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    
+    .parent{
+        padding-top: 2%;
+    }
+    
+    #ontdek{
+        margin-top: 0;
+    }
+    
+     .overtext h2{
+    padding-top: 5%;
+    padding-left: 8%;
+    padding-right: 0;
+    }
+    
+    article {
+        font-size: 90%;
+        padding-left: 8%;
+        padding-right: 0;
+    }
+    
+    .leesmeerbutton {
+        font-size: 80%;
+        margin-top: 5%;
+        margin-left: 8%;
+    }
+    
+    .pelkimg{
+        max-width:120%;
+        max-height:120%;
+        padding-left: 0;
+        padding-bottom: 0;
+        padding-top: 11%;
+        padding-right: 5%;
+    }
     
 }
